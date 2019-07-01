@@ -1,0 +1,39 @@
+/*底部样式*/
+#footer{
+    width:950px;
+    margin:0 auto;
+}
+#footer .layout{
+    width:100%;
+    margin-bottom:20px;
+}
+#footer .layout .box-bd{
+    text-align:center;
+    font-size:14px;
+}
+#footer .layout .box-bd div>span{
+    line-height:20px;
+}
+/*底部版权*/
+#copyright{
+    width:1190px;
+    margin:0 auto 20px;
+}
+#copyright li{
+    float:left;
+    padding-right:10px;
+}
+#copyright .link>ul{
+    height:66px;
+    line-height: 30px;
+}
+#copyright a,#copyright span{
+    font-size:12px;
+    color: #666;
+}
+#copyright .copy>p{
+    line-height:25px;
+}
+#copyright .copy ul.security-link>li>i{
+    background-image: url(https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg);
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SUSAN SLADE-欢迎注册</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+    <div class="page w">
+        <div class="clear">
+            <div id="title">
+                <p>SUSAN SLADE</p>
+                <b>欢迎注册</b>
+            </div>
+            <div id="login">
+                <span>已有账号?</span>
+                <a href="http://127.0.0.1:3007/login.html">请登录</a>
+            </div>
+        </div>
+        <hr>
+        <div id="content">
+            <div class="progress-bar clear">
+                <div class="pro-step pro-step-1"> 
+                    <span class="step-index">1</span>
+                    <p class="step-desc">验证手机号</p>
+                </div>
+                <div class="pro-line pro-line-1"></div>
+                <div class="pro-step pro-step-2">
+                    <span class="step-index">2</span>
+                    <p class="step-desc">填写账号信息</p>
+                </div>
+                <div class="pro-line pro-line-2"></div>
+                <div class="pro-step pro-step-3">
+                    <span class="step-index">3</span>
+                    <p class="step-desc">注册成功</p>
+                </div>
+            </div>
+            <div class="main">
+                <div class="reg-form">
+                    <div class="reg-1 form">
+                        <form>
+                                <div>
+                                    <div class="item item-phone">
+                                        <input type="text" name="phone" id="reg-phone" class="itxt"  placeholder="建议使用常用的手机号">
+                                    </div>
+                                    <div class="msg msg-phone"></div>
+                                </div>
+                                <div class="code clear">
+                                    <div class="item item-code">
+                                        <input type="text" name="upwd" id="reg-code" class="itxt"  placeholder="请输入验证码">
+                                    </div>
+                                    <div id="code">
+                                        <canvas id="c" width="120" height="30"></canvas> 
+                                    </div>
+                                </div>
+                                <div class="item item-next">
+                                    <button type="button" onclick="next()">下一步</button>
+                                </div>
+                        </form>
+                    </div>
+                    <div class="reg-2 form">
+                        <form>
+                            <div class="item item-uname clear">
+                                <lable for="reg-uname" class="before">&nbsp;用户名</lable> 
+                                <input type="text" name="uname" id="reg-uname" class="itxt"  placeholder="请输入3~9位的字母或数字">
+                            </div>
+                            <div class="msg msg-uname"></div>
+                            <div class="item item-upwd clear">
+                                <lable for="reg-upwd" class="before">&nbsp;设置密码</lable> 
+                                <input type="password" name="upwd" id="reg-upwd" class="itxt"  placeholder="请输入6~8位的字母或数字">
+                            </div>
+                            <div class="msg msg-upwd"></div>
+                            <div class="item item-onupwd clear">
+                                <lable for="reg-onupwd" class="before">&nbsp;确认密码</lable> 
+                                <input type="password" name="onupwd" id="reg-onupwd" class="itxt"  placeholder="请再次输入密码">
+                            </div>
+                            <div class="msg msg-onupwd"></div>
+                            <div class="item item-email clear">
+                                <lable for="reg-email" class="before">&nbsp;邮箱验证</lable> 
+                                <input type="text" name="email" id="reg-email" class="itxt"  placeholder="请输入邮箱">
+                            </div>
+                            <div class="msg msg-email"></div>
+                            <div class="item item-onemail clear">
+                                <div>
+                                    <lable for="reg-onemail" class="before">&nbsp;邮箱验证码</lable> 
+                                    <input type="text" name="onemail" id="reg-onemail" class="itxt"  placeholder="&nbsp;请输入邮箱验证码">
+                                </div>
+                                <div class="clear">
+                                    <a href="javascript:void(0)">获取验证码</a>
+                                </div>
+                            </div>
+                            <div class="item-reg">
+                                <button type="button" onclick="register()">立即注册</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="reg-3">
+                        恭喜您，注册成功！
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="footer w">
+            <div class="links">
+                <a rel="nofollow" target="_blank" href="#"> 关于我们</a>|
+                <a rel="nofollow" target="_blank" href="#">联系我们</a>|
+                <a rel="nofollow" target="_blank" href="#">人才招聘</a>|
+                <a rel="nofollow" target="_blank" href="#">商家入驻</a>|
+                <a rel="no  follow" target="_blank" href="#">广告服务</a>|
+                <a rel="nofollow" target="_blank" href="#">手机京东</a>|
+                <a target="_blank" href="#">友情链接</a>|
+                <a target="_blank" href="#">销售联盟</a>|
+                <a href="#" target="_blank">京东社区</a>|
+                <a href="#" target="_blank">京东公益</a>|
+                <a target="_blank" href="#" clstag="pageclick|keycount|20150112ABD|9">English Site</a>
+            </div>
+            <div class="copyright">
+                Copyright&copy;2004-2018&nbsp;京东JD.com&nbsp;版权所有
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/register.js"></script>
+    <script>
+        
+    </script>
+</body>
+</html>

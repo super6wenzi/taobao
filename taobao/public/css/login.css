@@ -1,0 +1,264 @@
+body{background-color: #fff;}
+.method_active{
+    color:#e4393c;
+    font-weight: bold;
+}
+.w{
+    width:990px;
+    margin:0 auto;
+}
+#title{
+    width:350px;
+    height:40px;
+    margin:20px 0;
+}
+#title p{
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    color:#f36a6a;
+}
+#title b{
+    width:150px;
+    height:40px;
+    font-size:28px;
+    display: inline-block;
+    padding-top: 7px;
+}
+#content .login-wrap{
+    margin-bottom:10px;
+}
+#content .login-wrap>.w{
+    position: relative;
+}
+#content .login-form{
+    width:346px;
+    background-color: #fff;
+    overflow:visible;
+    position: absolute;
+    left:323px;
+}
+#content .login-tab{
+    width: 173px;
+    height:54px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "microsoft yahei";
+    border-bottom: 1px solid #f4f4f4;
+}
+#content .login-tab-l{
+    position:absolute;
+    left:0;  
+}
+#content .login-tab-l a,#content .login-tab-r a{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:13px;
+}
+#content .login-tab-l a{
+    border-right:1px solid #f4f4f4;
+}
+#content .login-tab-r{
+    position:absolute;
+    right:0;
+}
+#content .login-box{
+    width:306px;
+    height:306px;
+    padding:20px;
+}
+#content .login-box .mc{
+    margin-top:50px;
+}
+#content .login-box .item{
+    margin-bottom:30px;
+    position:relative;
+}
+#content .login-box .item-fore1,#content .login-box .item-fore2{
+    width:304px;
+    height:38px;
+    border:1px solid #bdbdbd;
+}
+#content .login-box .login-label{
+    display: inline-block;
+    width:38px;
+    height:38px;
+    background: url(../img/pwd-icons.png) no-repeat;
+    border-right:1px solid #bdbdbd;
+    float: left;
+}
+#content .login-box .pwd-label{
+    background-position: -47px 0;
+}
+#content .login-box .form .itxt{
+    width:250px;
+    height:18px;
+    line-height: 18px;
+    border:0;
+    padding:11px 0 9px 11px;
+    float: left;
+}
+#content .login-box .form .itxt:focus{
+    outline-width:0;
+}
+#content .login-box .form .clear-btn{
+    position:absolute;
+    top:11px;
+    right:6px;
+    width:14px;
+    height:14px;
+    background: url(../img/pwd-icons.png) -25px -143px no-repeat;
+}
+#content .login-box .form .msg{
+    width:100%;
+    height:20px;
+    color:red;
+    font-size:12px;
+    clear:both;
+    padding-top:7px;
+} 
+#content .login-box .item-fore4 .safe{
+    position: relative;
+}
+#content .login-box .item-fore4 .safe>span:nth-child(1){
+    margin-right:15px;
+}
+#content .login-box .item-fore4 .forget-pw-safe{
+    position: absolute;
+    right:0;
+}
+#content .login-box .item-fore4 .forget-pw-safe a{
+    font-size:12px;
+}
+#content .login-box .item-fore5{
+    margin-bottom:10px;
+}
+#content .login-box .item-fore5 .login-btn{
+    width:99%;
+    height:32px;
+    margin:0 auto;
+}
+#content .login-box .item-fore5 .login-btn button{
+    background-color:#e4393c;
+    width:302px;
+    height:31px;
+    line-height:31px;
+    color:#fff;
+    font-size:20px;
+    font-family:"Microsoft YaHei";
+    border:1px solid #e85356;
+    padding:0;
+    cursor: pointer;
+}
+#content .qrcode-login{
+    width:306px;
+    padding:20px 18px 20px 20px;
+    text-align:center;
+    display:none;
+}
+#content .qrcode-main{
+    height:168px;
+    margin-top:55px;
+    
+}
+#content .qrcode-img{
+    width:155px;
+    padding:8px;
+    border:1px solid #f4f4f4;
+    position: absolute;
+    left:87px;
+}
+#content .qrcode-img img{   
+    width:147px;
+    height:147px;
+}
+#content .qrcode-panel{
+    width:257px;
+    margin:18px auto 14px;
+    text-align:center;
+}
+#content .qrcode-panel li{
+    margin-right:5px;
+    padding-left:5px;
+    display: inline-block;
+}
+#content .coagent{
+    height:auto;
+    line-height:50px;
+    padding:0 20px;
+    background-color:#fcfcfc;
+    border-top:1px solid #f4f4f4;
+}
+#content .coagent ul li:nth-child(1),#content .coagent ul li:nth-child(2){
+    float: left;
+}
+#content .coagent ul li:nth-child(3){
+    float: right;
+}
+#content .coagent ul li:nth-child(2){
+    font-size:14px;
+}
+#content .coagent ul .pdl{
+    color:#666;
+    position: relative;
+    padding-left:24px;
+}
+#content .coagent ul .pdl>b{
+    background:url(../img/QQ-weixin.png) no-repeat;
+    display: inline-block;
+    width:19px;
+    height:18px;
+    position: absolute;
+    top:0px;
+    left:0;
+}
+#content .coagent ul .pdl .weixin-icon{
+    background:url(../img/QQ-weixin.png) -20px 0 no-repeat;
+}
+#content .coagent ul .line{
+    padding:0 10px 0 5px;
+    color:#ccc;
+}
+#content .extra-r{
+    float:right;
+}
+#content .regist-link{
+    width:77px;
+    height:50px;
+    font-size:14px;
+}
+#content .regist-link a{
+    font-size:14px;
+    color:#b61d1d;
+}
+#content .regist-link a b{
+    display:inline-block;
+    width:16px;
+    height:16px;
+    overflow:hidden;
+    background:url(../img/pwd-icons.png) -104px -75px no-repeat;
+    margin-right:5px;
+    vertical-align: middle;
+}
+#content .login-banner{
+    height:457px;
+    width:100%;
+    background-color: #9C0808;
+}
+.footer{
+    font-size:12px;
+    text-align:center;
+    color:#666;
+}
+#footer .links{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#footer .links a{
+    color:#666;
+    margin:0 10px;
+}

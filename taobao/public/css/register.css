@@ -1,0 +1,193 @@
+body{background-color: #fff;}
+.w{
+    width:990px;
+    margin:0 auto;
+}
+#title{
+    width:350px;
+    height:40px;
+    margin:20px 0;
+    float:left;
+}
+#title p{
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    color:#f36a6a;
+}
+#title b{
+    width:150px;
+    height:40px;
+    font-size:28px;
+    display: inline-block;
+    padding-top: 7px;
+}
+#login{
+    float:right;
+    margin-top:40px;
+}
+#login a{
+    color:#e22;
+}
+.page>hr{
+    border:2px solid #eee;
+}
+#content .progress-bar{
+    width:365px;
+    margin:20px auto 0;
+    text-align:center;
+}
+#content .progress-bar .pro-step,#content .progress-bar .pro-line{
+    float: left;
+    text-align:center;
+    font-size:14px;
+}
+#content .progress-bar .pro-line, .progress-bar .pro-step .step-index{
+    background: url(../img/reg-icon.png) no-repeat;
+}
+#content .progress-bar .pro-line{
+    background-position: 0 -40px;
+    width:74px;
+    height:10px;
+    margin-top:8px;
+}
+#content .progress-bar .pro-step .step-index{
+    background-position: -45px -200px;
+    display:block;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    font-weight:700;
+    color:#ccc;
+    margin:0 auto;
+}
+#content .progress-bar .pro-step .step-desc{
+    margin-top:10px;
+    color:#999;
+}
+#content .main{
+    width:365px;
+    margin:50px auto 186px;
+}
+#content .form .item{
+    margin-bottom:5px;
+    position:relative;
+    height:40px;
+}
+#content .form .itxt{
+    width:350px;
+    height:18px;
+    line-height: 18px;
+    padding:11px 0 9px 11px;
+}
+#content .item .itxt:focus{
+    outline-width: 0;
+}
+#content .reg-1.form .itxt{
+    opacity:0.5;
+}
+#content .reg-1.form .itxt:hover{
+    opacity:1;
+}
+#content .form .msg{
+    width:100%;
+    height:20px;
+    color:red;
+    font-size:14px;
+    clear:both;
+    padding-top:2px;
+    margin-bottom:20px;
+} 
+#content .item-next,#content .item-reg{
+    width:99%;
+    height:32px;
+    margin:0 auto;
+}
+#content .item-next button,#content .item-reg button{
+    background-color:#e4393c;
+    width:364px;
+    height:31px;
+    line-height:31px;
+    color:#fff;
+    font-size:20px;
+    font-family:"Microsoft YaHei";
+    border:1px solid #e85356;
+    padding:0;
+    cursor: pointer;
+}
+#content .main .reg-1 .code{
+    margin-bottom:40px;
+}
+#content .item-code,#code{
+    float: left;
+}
+#content .reg-1.form .code .itxt{
+    width:220px;
+    margin-right:10px;
+}
+#code{
+    padding-top:5px;
+}
+#content .reg-2.form .item{
+    border:1px solid #ccc;
+}
+#content .reg-2.form .item:hover{
+    border-color:#666;
+}
+#content .reg-2 .item .itxt{
+    border:0;
+    float: left;
+    width:262px;
+    padding-top:13px;
+}
+#content .reg-2.form .item lable.before{
+    font-size: 14px;
+    width:85px;
+    color:#333;
+    float: left;
+    line-height: 42px;
+}
+#content #reg-onemail{
+    width:179px;
+}
+#content .form .item.item-onemail{
+    margin-bottom:40px;
+}
+#content .item-onemail div:nth-child(1){
+    float: left;
+}
+#content .item-onemail div:nth-child(2){
+    float: right;
+    border-left: 1px solid #999;
+    height:42px;
+    line-height:42px;
+    opacity:0.5;
+}
+#content .item-onemail div:nth-child(2):hover{
+    opacity:1 !important;
+}
+#content .item-onemail div:nth-child(2) a{
+    font-size: 14px;
+    padding-left:5px;
+    padding-right:5px;
+}
+#content .reg-3{
+    text-align: center;
+}
+.footer{
+    font-size:12px;
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+}
+#footer .links{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#footer .links a{
+    color:#666;
+    margin:0 10px;
+}
